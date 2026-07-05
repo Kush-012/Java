@@ -1,0 +1,16 @@
+import java.util.*;
+interface Add{
+  int addition(int a,int b);
+}
+public class Main {
+    public static void main(String[] args) {
+      Add add=(a,b)->a+b;
+      int res=add.addition(10,20);
+      System.out.println(res);
+    }
+} 
+
+interface named "Add" is created containing 1 method named "addition". 
+Add is a functional interface containing only 1 method.
+lambda func (parameters)->body/return
+Anonymous class is created implementing the interface.
