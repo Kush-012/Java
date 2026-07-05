@@ -1,0 +1,23 @@
+Interface contains abstract and public methods by default
+interface Add{
+  int addition(int a,int b);
+} 
+
+Interface also contains:
+1. default method containing method body. These are introduced if after some days we need to add 1 more method , we have to change the all clases implementing them.
+2. static method belongs to class, accessed by class not object.
+3. private method belongs to interface only. Can be called by other default method body.
+
+interface Animal {
+    default void sound() {
+        System.out.println("Some animal sound");
+    }
+}
+
+interface Animal {
+    static void info() {
+        System.out.println("Animals are living beings.");
+    }
+} 
+
+Functional interface containg 1 abstract method only.
