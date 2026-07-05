@@ -1,0 +1,22 @@
+Generics allows users to work with different data types using class, method.
+It refers to parameterised types.
+
+import java.util.*;
+class Abc<T>{
+  
+  T value;
+  void setter(T x){
+    value=x;
+  }
+  T getter(){
+    return value;
+  }
+}
+
+public class Main {
+  public static void main(String[]args){
+    Abc <Integer> obj=new Abc<Integer>();
+    obj.setter(3);
+    System.out.println(obj.getter());
+  }
+} 
