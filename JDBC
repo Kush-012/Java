@@ -1,0 +1,6 @@
+It allows users to interact with database.
+We download the appropiate driver acc. to the database like mysql, mongoDB
+we create the connection object mentioning url,root and password
+
+DriveManager class maintains list of drivers
+Connection is a interface represent session with database
