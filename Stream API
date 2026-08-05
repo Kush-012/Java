@@ -1,1 +1,9 @@
+Collection	                                         Stream
+Stores data	                                         Processes data
+Can add/remove elements	                             Cannot modify data
 
+streams is sequence of data used to perform operations like map, filter.
+it do not store data. Unlike collections it is used to process the data (eg from collections).
+
+map is used to Transforms each element into another value.
+filter is used to remove unwanted data.
