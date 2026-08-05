@@ -1,1 +1,6 @@
-Thread is the unit of the execution inside the pfrmfrjfrnjnjrf.
+Thread is the unit of the execution inside the process.
+
+used by extending the Thread class or implementing the Runnable interface.
+
+Multithreading allows multiple threads to run inside the same process
+Java is a multi threaded 
