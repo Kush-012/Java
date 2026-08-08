@@ -4,3 +4,5 @@ used by extending the Thread class or implementing the Runnable interface.
 
 Multithreading allows multiple threads to run inside the same process
 Java is a multi threaded 
+
+synchronisation ensures that only thread access the code section at once to prevent data loss.
