@@ -1,0 +1,12 @@
+try catch block
+
+
+unchecked exceptions 
+detetcted at run time 
+inherits from RunTimeException class
+like logic error, 0 division error
+
+checked exceptions
+detected at compile time 
+inherits Exception class
+io exception
