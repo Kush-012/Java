@@ -1,1 +1,14 @@
 Java is both compile and runtime language
+
+Reason:
+java is both compile as well as run time.
+when Main.src is converted into Main.class by compiler
+Main.class is converted to byte code by interpretor
+
+Java is pass by value
+
+Reason:
+when argument passed as primitive data types then copy of parameters is passed
+and in case of non primitive data types like array or objects then copy of reference is passed
+and that why if changes occur in object content also reflect in origional reference 
+(both variables pointing to sama object).
