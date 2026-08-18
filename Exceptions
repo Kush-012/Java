@@ -1,5 +1,28 @@
 try catch block
+throw and throws
 
+try: code that might throw an exception
+catch: handle the Exception
+
+throw: explicitly throw an exception.
+throws: declare an exception.
+
+Exception is a disruption in normal flow of program
+Types of exception:
+1. Unchecked
+2. Checked
+3. Error
+
+Throwbale
+Exception                             Error
+1. runtime exception                  1. stackoverflow error          
+    Airthmetic                        2. memory out of bound error
+    Null pointer
+2. IO exception
+
+Error
+problems arises beyond the control of user
+eg memory out of bound error
 
 unchecked exceptions 
 detetcted at run time 
