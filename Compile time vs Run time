@@ -1,3 +1,0 @@
-java is both compile as well as run time.
-when Main.src is converted into Main.class by compiler
-Main.class is converted to byte code by interpretor
